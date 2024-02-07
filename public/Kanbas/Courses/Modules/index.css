@@ -1,0 +1,74 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wd-modules>li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules>li>div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-modules>li>ul>li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules>li>ul>li>div {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.wd-modules>li>ul>li>div>i {
+    padding-right: 10px;
+}
+
+.wd-modules>li {
+    margin-bottom: 20px;
+}
+
+.wd-modules>li>ul>li>ul>li {
+    border-top: 1px solid gray !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wd-sublist-item>i {
+    padding-right: 40px;
+}
+
+.wd-modules-button-group {
+    padding: 30px;
+}
+
+.wd-modules-button-group>button {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.wd-modules-button-group>select {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 5px;
+}
