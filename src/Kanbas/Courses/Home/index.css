@@ -1,0 +1,96 @@
+.wd-home-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-course-status {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.wd-publish-status-button-group {
+    margin-bottom: 10px;
+}
+
+.wd-publish-status-button-group>button {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 5px;
+}
+
+.wd-course-status-button-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.wd-course-status-button-group button {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 6px;
+    margin-top: 5px;
+    width: 230px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.wd-coming-up-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-coming-up-header>a {
+    margin-left: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.wd-coming-up-body {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.wd-coming-up-body>li {
+    margin-bottom: 10px;
+}
+
+.wd-coming-up-body>li>a {
+    list-style-type: none;
+    color: red;
+    text-decoration: none;
+}
+
+.wd-home-main-header {
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wd-home-main-header>a {
+    color: red;
+    text-decoration: none;
+    font-size: large;
+}
+
+.wd-home-main-header>a>i {
+    margin-right: 50px;
+    font-size: x-large;
+}
+
+.wd-home-secondary-header {
+    background-color: black;
+    text-align: center;
+}
+
+.wd-home-secondary-header i {
+    color: white;
+    padding: 15px;
+}
+
+.wd-home-secondary-header h6 {
+    color: white;
+    padding: 15px;
+}

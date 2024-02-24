@@ -1,0 +1,20 @@
+.wd-mini-card-text {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-size: small;
+    color: dimgray;
+}
+
+.wd-card-text {
+    margin: 0px;
+    font-size: medium;
+    color: dimgray;
+}
+
+.card-body .fa {
+    color: dimgray;
+    font-size: x-large;
+    margin-top: 5px;
+    margin-left: 5px;
+}

@@ -1,0 +1,23 @@
+.wd-course-header {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+
+.wd-course-header .wd-bars {
+    margin-right: 15px;
+    margin-left: 8px;
+    font-size: x-large;
+}
+
+.wd-subheader-text {
+    color: black;
+    margin-left: 10px;
+}
+
+.wd-course-body {
+    display: flex;
+    flex-direction: row;
+}
