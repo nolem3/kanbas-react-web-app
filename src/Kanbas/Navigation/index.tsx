@@ -23,7 +23,7 @@ function KanbasNavigation({ courses }: { courses: any[]; }) {
             </li>
             {links.map((link, index) => (
                 <li key={index} className={pathname.includes(link.label) ? "wd-active" : ""}>
-                    <Link to={link.label === "Courses" ? `/Kanbas/Courses/${courses[0]._id}/Home` : `/Kanbas/${link.label}`}>
+                    <Link to={(link.label === "Courses" && courses.length > 0) ? `/Kanbas/Courses/${courses[0]._id}/Home` : `/Kanbas/${link.label}`}>
                         {link.icon} {link.label}
                     </Link>
                 </li>
