@@ -1,4 +1,3 @@
-import { courses } from "../../Kanbas/Database";
 import "./index.css"
 import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom";
 import { HiMiniBars3 } from "react-icons/hi2";
@@ -7,7 +6,8 @@ import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 import { FaGreaterThan } from "react-icons/fa";
-function Courses() {
+
+function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
     const { pathname } = useLocation();
     const links = ["Home", "Modules", "Piazza", "Assignments", "Grades", "Announcements", "Syllabus", "Discussions", "Files"];

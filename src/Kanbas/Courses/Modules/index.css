@@ -61,3 +61,26 @@
     margin-right: 10px;
     padding: 5px;
 }
+
+.wd-modules-button-group > input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.wd-modules-button-group > textarea {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.wd-modules>li>div>span>button {
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    width: 60px;
+}

@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import "./index.css";
 import "font-awesome/css/font-awesome.min.css";
 import { FaTachometerAlt, FaRegUserCircle, FaBook, FaRegCalendarAlt } from "react-icons/fa";
-function KanbasNavigation() {
+function KanbasNavigation({ courses }: { courses: any[]; }) {
     const links = [
         { label: "Account", icon: <FaRegUserCircle className="fs-2 wd-white-icon" /> },
         { label: "Dashboard", icon: <FaTachometerAlt className="fs-2" /> },
@@ -23,7 +23,9 @@ function KanbasNavigation() {
             </li>
             {links.map((link, index) => (
                 <li key={index} className={pathname.includes(link.label) ? "wd-active" : ""}>
-                    <Link to={`/Kanbas/${link.label}`}> {link.icon} {link.label} </Link>
+                    <Link to={link.label === "Courses" ? `/Kanbas/Courses/${courses[0]._id}/Home` : `/Kanbas/${link.label}`}>
+                        {link.icon} {link.label}
+                    </Link>
                 </li>
             ))}
         </ul>

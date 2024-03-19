@@ -18,3 +18,40 @@
     margin-top: 5px;
     margin-left: 5px;
 }
+
+.wd-sub-header > div {
+    margin-top: 15px;
+}
+
+.wd-red-button {
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.wd-reg-button {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+.wd-make-course .wd-red-button {
+    height: 40px;
+    width: 50px;
+}
+
+.wd-make-course .wd-reg-button {
+    height: 40px;
+    width: 70px;
+    margin-right: 5px;
+}
+
+.wd-make-course {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-make-course > div {
+    margin-bottom: 10px;
+}
